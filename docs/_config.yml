@@ -1,3 +1,34 @@
-theme: jekyll-theme-minimal
 title: Nurse
-description: Nurse is a Bash helper and packages for make application
+email: me@plivox.dev
+description: >-
+  Nurse is a Bash helper and packages for make application, provisioning and application deployment. Sometimes we need Bash to do things ^^ This is an attempt to bring together both best practices and libraries to facilitate reuse.
+url: "https://nurse.plivox.dev"
+github_username: plivox
+repository: plivox/nurse
+theme: just-the-docs
+logo: /assets/images/nurse-logo.svg
+color_scheme: dark
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+enable_copy_code_button: true
+heading_anchors: true
+nav_sort: case_sensitive
+aux_links:
+  "Nurse Bash helper On GitHub":
+    - "https://github.com/plivox/nurse"
+back_to_top: true
+back_to_top_text: "Back to top"
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
